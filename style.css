@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 12px;    
+    top:7px;
+    position: relative;
+}
+.form input{
+    border:1px solid #5B5B5B;
+    color: #5B5B5B;
+    background-color: black;
+    margin: 8px;
+    padding: 10px;
+    width:340px;
+    height:44px;
+}
+button{
+    top: 10px;
+    position: relative;
+    width: 500px;
+    margin: 8px;
+    height: 54px;
+    font-size: 15px;
+}
+
+.search{
+    position: relative;
+    top:30px;
+    width: 99%;
+}
+
+.search input{
+    background-color: black;
+    color: #5B5B5B;
+    border: 1px solid #5B5B5B;
+    width: 95%;
+    height: 50px;
+    margin: 8px;
+    padding: 10px;
+}
+
+#table-container{
+    position: relative;
+    top:45px;
+    margin: 8px;
+    width: 99%;
+}
+
+#table-container table{
+    color:white;
+    width: 97%;
+    border-collapse: collapse;
+}
+
+tr{
+  text-align: center;
+  font-size: 16px;
+}
+
+table td, table th{
+    border:1px solid #888888;
+    padding: 8px;
+}
+
+table tbody tr:first-child td {
+    border-top: none;
+}
+
+table th:first-child,
+table td:first-child {
+    border-left: 1px solid #888888;
+}
+
+table th:last-child,
+table td:last-child {
+    border-right: 1px solid #888888;
+}
+.modify{
+    display: flex;
+    justify-content: space-around;
+}
